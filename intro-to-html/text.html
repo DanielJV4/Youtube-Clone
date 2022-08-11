@@ -1,0 +1,48 @@
+<!--to align text, use porperty text-align: x; -->
+<!--general techniques; Create element with HTML, style with CSS one by one.-->
+<!--paragaraphs by defualy come with a margin of 14 in both top and bottom-->
+<!-- margin set to 0 resets the default margin then add x px to your choosing-->
+<!-- if all class have the same value and property, assign it to all via x selector-->
+<!-- .video-tite is an example of a selector targeting a class-->
+<!--CSS speceficity, ex: class name selector > element name selector-->
+<!--p is an example of an element name selector-->
+<!--text element= is an element inside a line of text-->
+<!--<span></span> element has no style. We can give it a class ex which helps to style a specific word
+  or part of a text-->
+<!--margin value is used a spaces-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Text Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/text.css">
+  </head>
+
+  <body>
+    <p class="video-title">
+      Talking Tech and AI with google CEO Sundar Pichai!
+    </p>
+    
+    <p class="video-stats">
+      3.4M views &#183; 6 months ago
+    </p>
+    
+    <p class="user-name">
+      Marques Brownlee &#10003;
+    </p>
+    
+    <p class="video-description">
+      Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. 
+      Shoutout to Sundar!
+    </p>
+    
+    <p class="video-announcement">
+      Shop early for the best selection of holiday favourites. 
+      <span class="shop-link">Shop now &#62;</span>
+    </p>
+  </body>
+</html>
